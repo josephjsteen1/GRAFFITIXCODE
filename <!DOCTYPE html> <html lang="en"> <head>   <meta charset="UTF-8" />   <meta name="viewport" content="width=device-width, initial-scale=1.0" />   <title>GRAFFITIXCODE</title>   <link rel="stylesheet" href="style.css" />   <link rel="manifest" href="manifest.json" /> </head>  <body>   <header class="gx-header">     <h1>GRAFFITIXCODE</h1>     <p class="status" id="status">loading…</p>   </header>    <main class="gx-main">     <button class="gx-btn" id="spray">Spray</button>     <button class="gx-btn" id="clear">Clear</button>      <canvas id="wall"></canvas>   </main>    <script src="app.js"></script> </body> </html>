@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GRAFFITIXCODE</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+
+<body>
+  <header class="gx-header">
+    <h1>GRAFFITIXCODE</h1>
+    <p class="status" id="status">loading…</p>
+  </header>
+
+  <main class="gx-main">
+    <button class="gx-btn" id="spray">Spray</button>
+    <button class="gx-btn" id="clear">Clear</button>
+
+    <canvas id="wall"></canvas>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
